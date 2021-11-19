@@ -11,14 +11,15 @@
     <a href="https://www.codingwala.in/dc">Report bug</a>
     ·
     <a href="https://www.codingwala.in/dc">Request feature</a>
+    ·
+    <a href="https://github.com/ItsBhuvnesh/BhuvneshSB">Git Repo</a>
   </p>
 </p>
-
 
 ## Quick start
 
 1. Fork The Repl
-2. Run `sh install.sh` in Shell 
+2. Run `sh install.sh` in Shell
 3. Open `config.json` file
 4. Fill Your Desired Data
 5. Run The Repl
