@@ -1,14 +1,21 @@
 {
   "name": "bhuvneshsb",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "Discord Selfbot",
+    "Bhuvnesh Selfbot"
+  ],
+  "author": "Bhuvnesh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ItsBhuvnesh/BhuvneshSB"
+  },
   "dependencies": {
     "axios": "^0.24.0",
     "axios-socks5-agent": "^1.0.1",
@@ -37,5 +44,5 @@
   "devDependencies": {
     "node": "^16.13.0"
   },
-  "description": ""
+  "description": "Discord Selfbot Made by Bhuvnesh"
 }
