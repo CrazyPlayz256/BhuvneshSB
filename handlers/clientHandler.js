@@ -1,0 +1,1 @@
+const{Client:Client,TextChannel:TextChannel,MessageEmbed:MessageEmbed,Collection:Collection}=require("discord.js-selfbot"),{color:color,prefix:prefix,allowed:allowed}=require("../config.json");module.exports=e=>{e.color=color,e.prefix=prefix,e.allowed=allowed,e.commands=new Collection};

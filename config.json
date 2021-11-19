@@ -1,0 +1,36 @@
+{
+  "tokens": ["token1", "token2"],
+  "prefix": ">",
+  "color": "2f3136",
+  "allowed": ["537194359154671616"],
+  "stream": true,
+  "enableEmbed": true,
+  "music": {
+    "enabled": false,
+    "spotify": {
+      "enabled": false,
+      "clientID": "spotify-client-id",
+      "clientSecret": "spotify-client-secret"
+    },
+    "nodes": [
+      {
+        "host": "",
+        "port": 0,
+        "password": "",
+        "youtube search": true
+      },
+      {
+        "host": "lava.link",
+        "port": 80,
+        "password": "",
+        "youtube search": true
+      },
+      {
+        "host": "lava.link",
+        "port": 0,
+        "password": "",
+        "youtube search": true
+      }
+    ]
+  }
+}

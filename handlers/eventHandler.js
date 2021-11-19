@@ -1,0 +1,1 @@
+const fs=require("fs");module.exports=e=>{const s=fs.readdirSync("./events");for(const n of s){const s=require(`../events/${n}`),o=n.split(".")[0].trim();e.on(o,s.bind(null,e))}};

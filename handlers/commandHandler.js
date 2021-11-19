@@ -1,0 +1,1 @@
+const fs=require("fs");module.exports=s=>{const o=fs.readdirSync("./commands");for(const n of o){const o=fs.readdirSync(`./commands/${n}`).filter((s=>s.endsWith(".js")));for(const r of o){const o=require(`../commands/${n}/${r}`);o.name&&o.run&&(s.commands.set(o.name,o),o.directory=n)}}};

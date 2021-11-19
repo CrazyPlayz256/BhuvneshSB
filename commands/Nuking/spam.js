@@ -1,0 +1,1 @@
+const{Client:Client,Message:Message}=require("discord.js-selfbot"),{prefix:prefix}=require("../../config.json");module.exports={name:"spam",description:`${prefix}spam 100 Bhuvnesh OP!`,run:async(e,r,s)=>{try{const e=s[0];if(!e||isNaN(parseInt(e))||!s[1])return;for(let n=0;n<parseInt(e);n++)r.channel.send(s.slice(1).join(" ")).catch((()=>{}))}catch(e){throw new Error(e)}}};
