@@ -1,12 +1,12 @@
 {
-  "tokens": ["token1", "token2"],
+  "token": "TOKEN (use secrets if on repl.it)",
   "prefix": ">",
   "color": "2f3136",
   "allowed": ["537194359154671616"],
   "stream": true,
   "enableEmbed": true,
   "music": {
-    "enabled": false,
+    "enabled": true,
     "spotify": {
       "enabled": false,
       "clientID": "spotify-client-id",
@@ -14,21 +14,23 @@
     },
     "nodes": [
       {
-        "host": "",
-        "port": 0,
-        "password": "",
-        "youtube search": true
+        "host": "lavalink.darrennathanael.com",
+        "port": 80,
+        "password": "boolookbelow",
+        "youtube search": true,
+        "secure": false
+      },
+      {
+        "host": "lava.darrennathanael.com",
+        "port": 443,
+        "password": "airportgateway",
+        "youtube search": true,
+        "secure": true
       },
       {
         "host": "lava.link",
         "port": 80,
-        "password": "",
-        "youtube search": true
-      },
-      {
-        "host": "lava.link",
-        "port": 0,
-        "password": "",
+        "password": "youshallnotpass",
         "youtube search": true
       }
     ]
